@@ -13,15 +13,15 @@
     border-radius: 30px 30px 30px;
     }
 .Introduction{
- 	color: orange;
+    color: orange;
     font-size: 24px;
- 	text-align: center;
- 	/*background-color: green;*/
- 	border-radius: 30px;
+    text-align: center;
+    /*background-color: green;*/
+    border-radius: 30px;
 }
  .text{
- 	font-style: italic;
- 	padding: 20px;
+    font-style: italic;
+    padding: 20px;
     color: crimson;
     font-size: 24px;
 
@@ -44,6 +44,9 @@
  text-align: right;
  font-size: 20px;
 }
+tr{
+    columns: 3;
+}
 .immg{
     text-align: right;
     }
@@ -58,6 +61,7 @@
 }
 .file{
     float: right;
+    background: skyblue;
 }
 .txt{
     text-align: center;
@@ -80,6 +84,14 @@ font-size: 30px;
     padding: 10px;
     background-size: 680px;
 
+}
+img{
+    height: 300px;
+     border: 5px solid black;
+     border-radius: 10px;
+}
+.th{
+    border: 5px solid orange;
 }
 .mon{
     border: 5px solid orange;
@@ -135,4 +147,7 @@ font-size: 30px;
     font-weight: bold;
     font-size: 20px;
     color: brown;
+}
+.pht{
+    font-size:20px;
 }
